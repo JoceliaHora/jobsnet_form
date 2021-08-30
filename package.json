@@ -1,0 +1,27 @@
+{
+  "name": "jobsnet_form",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "build-start": "npm install; node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoceliaHora/jobsnet_form.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoceliaHora/jobsnet_form/issues"
+  },
+  "homepage": "https://github.com/JoceliaHora/jobsnet_form#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
